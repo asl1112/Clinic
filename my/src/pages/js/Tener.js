@@ -30,6 +30,12 @@ export default class Tener extends Component {
             </div>
         </section>
 
+        <section className={t.experiencia}>
+            <h3 className={t.experiencia_title}>Más de 20 años de experiencia</h3>
+            <p className={t.experiencia_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum. Integer blandit, eros vitae sagittis ornare, lorem nibh faucibus nisi, ut pharetra lacus sem sit amet risus. Proin placerat lectus </p>
+            <button className={t.experiencia_btn}>Nuestra historia </button>
+        </section>
+
         <section className={t.amplia}>
             <div className={t.amplia_body}>
                 <div className={t.amplia_left}>
