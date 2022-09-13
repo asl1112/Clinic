@@ -44,10 +44,12 @@ export default class Tener extends Component {
                 <div className={t.amplia_right}>
                     <h3 className={t.amplia_title}>Amplia cobertura</h3>
                     <p className={t.amplia_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum. Integer</p>
+                    <button className={t.amplia_btn}>Ver en el mapa</button>
                 </div>
             </div>
         </section>
 
+        
       </div>
     )
   }

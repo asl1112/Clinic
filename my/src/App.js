@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import './App.css'
 import Navbar from './pages/js/Navbar'
 import Tener from './pages/js/Tener'
+import Footer from './pages/js/Footer'
+
 
 export default class App extends Component {
   render() {
@@ -10,6 +12,7 @@ export default class App extends Component {
         
         <Navbar />
         <Tener />
+        <Footer />
 
       </div>
     )

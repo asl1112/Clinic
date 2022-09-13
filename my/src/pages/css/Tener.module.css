@@ -87,14 +87,13 @@
     font-weight: 300;
     font-size: 1.45vw;
     color: #004494;
-    line-height: 42px;
     text-align: justify;
     margin-top: 20px;
 }
 
 .experiencia {
     width: 100%;
-    height: 33vw;
+    height: 35vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -109,8 +108,23 @@
     font-weight: 300;
     font-size: 1.5vw;
     color: #004494;
+    margin-top: 15px;
 }
 .experiencia_btn {
+    width: 14vw;
+    height: 4.5vw;
+    background-color: #358BCF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2vw;
+    cursor: pointer;
+    margin-top: 3vw;
+}
+.amplia_btn {
     width: 14vw;
     height: 4.5vw;
     background-color: #358BCF;
