@@ -8,6 +8,10 @@ export default class Tener extends Component {
     return (
       <div>
         
+        <header className={t.header}>
+              <h1 className={t.header_title}>Primer servicio de <span>asistencia pediátrica</span> en Madrid</h1>
+        </header>
+        
         <section className={t.tener}>
             <div className={t.tener_body}>
                 <div className={t.tener_left}>
