@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './pages/js/Navbar'
 import Inicio from './pages/js/Inicio'
 import Footer from './pages/js/Footer'
-import Servicios from './pages/js/Servicios'
+import Servicios from '../src/pages/js/Servicios'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
