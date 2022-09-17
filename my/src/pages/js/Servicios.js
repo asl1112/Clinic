@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import s from '../css/Servicios.module.css'
+import { YMaps, Map, Placemark } from "react-yandex-maps";
 
 export default class Servicios extends Component {
     render() {
@@ -41,9 +42,14 @@ export default class Servicios extends Component {
                     </div>
                 </section>
 
-                <section className={s.map}>
+                <section className={s.map} >
                     <h3 className={s.map_title}>Zonas de cobertura</h3>
-                    
+                     <YMaps  >
+                        <Map defaultState={{ center: [41.316905, 69.279732], zoom: 9 }}  >
+                        
+                        <Placemark geometry={[41.316905, 69.279732]} />
+                        </Map>
+                    </YMaps>
                 </section>
 
             </div>

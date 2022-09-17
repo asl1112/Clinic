@@ -26,15 +26,16 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 8vw;
+    margin-top: 6vw;
 }
 .card {
     width: 266px;
-    height: auto;
+    height: 350px;
     background: rgba(236, 243, 250, 0.8);
     border-radius: 30px;
     padding: 40px 20px;
     transition: .3s;
+    margin-top: 20px;
 }
 .card_title,
 .card_info {
