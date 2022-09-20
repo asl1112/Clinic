@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import p from '../css/Profesionals.module.css'
 import headerImg from '../img/footer.png'
+import card_img from '../img/card.png'
+import card_img2 from '../img/card1.png'
+import card_img3 from '../img/card2.png'
+import liamenosImg from '../img/img.png'
 
 export default class Profesionales extends Component {
   render() {
@@ -14,9 +18,63 @@ export default class Profesionales extends Component {
 
         <section className={p.card}>
           <div className={p.card_top}>
-                        
+              <h2 className={p.card_title}>Conoce a nuestro equipo</h2>
+              <p className={p.card_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu 
+              sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum.</p>
           </div>
+
+          <div className={p.card_body}>
+
+            <div className={p.card_list}>
+              <img src={card_img3} alt='' />
+              <div className={p.list_texts}>
+                <h5 className={p.list_title}>Dr. Luis Fernández </h5>
+                <p className={p.list_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum. Integer</p></div>
+            </div>
+
+            <div className={p.card_list}>
+              <img src={card_img2} alt='' />
+              <div className={p.list_texts}>
+                <h5 className={p.list_title}>Dr. Luis Fernández </h5>
+                <p className={p.list_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum. Integer</p></div>
+            </div>
+
+            <div className={p.card_list}>
+              <img src={card_img} alt='' />
+              <div className={p.list_texts}>
+                <h5 className={p.list_title}>Dr. Luis Fernández </h5>
+                <p className={p.list_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum. Integer</p></div>
+            </div>
+
+            <div className={p.card_list}>
+              <img src={card_img3} alt='' />
+              <div className={p.list_texts}>
+                <h5 className={p.list_title}>Dr. Luis Fernández </h5>
+                <p className={p.list_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum. Integer</p></div>
+            </div>
+
+            <div className={p.card_list}>
+              <img src={card_img2} alt='' />
+              <div className={p.list_texts}>
+                <h5 className={p.list_title}>Dr. Luis Fernández </h5>
+                <p className={p.list_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum. Integer</p></div>
+            </div>
+
+            <div className={p.card_list}>
+              <img src={card_img} alt='' />
+              <div className={p.list_texts}>
+                <h5 className={p.list_title}>Dr. Luis Fernández </h5>
+                <p className={p.list_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum. Integer</p></div>
+            </div>
+
+            
+          </div>
+          
         </section>
+
+      <section className={p.liamenos}>
+        <img src={liamenosImg} alt='' />
+      </section>
 
       </div>
     )
