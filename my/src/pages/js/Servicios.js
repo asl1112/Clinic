@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import s from '../css/Servicios.module.css'
+import  s  from "../css/Servicios.module.css";
 import { YMaps, Map, Placemark } from "react-yandex-maps";
+import Footer from './Footer'
 
 export default class Servicios extends Component {
     render() {
@@ -44,14 +45,49 @@ export default class Servicios extends Component {
 
                 <section className={s.map} >
                     <h3 className={s.map_title}>Zonas de cobertura</h3>
-                     <YMaps  >
-                        <Map defaultState={{ center: [41.316905, 69.279732], zoom: 9 }}  >
-                        
-                        <Placemark geometry={[41.316905, 69.279732]} />
-                        </Map>
-                    </YMaps>
+                     <div className={s.map_body}>
+                        <YMaps  >
+                            <Map width='100%'  defaultState={{ center: [41.316905, 69.279732], zoom: 12 }} height='100%' >
+                                <Placemark geometry={[41.316905, 69.279732]} />
+                            </Map>
+                        </YMaps>
+                     </div>
                 </section>
 
+                <section className={s.lorem}>
+                    <div className={s.lorem_card}>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                    </div>
+
+                    <div className={s.lorem_card}>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                    </div>
+
+                    <div className={s.lorem_card}>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                        <li className={s.card_text}>· Lorem Impsum</li>
+                    </div>
+                    
+                </section>
+
+                <Footer />
             </div>
         )
     }

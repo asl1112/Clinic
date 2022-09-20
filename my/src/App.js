@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import './App.css'
 import Navbar from './pages/js/Navbar'
 import Inicio from './pages/js/Inicio'
-import Footer from './pages/js/Footer'
 import Servicios from '../src/pages/js/Servicios'
+import Profesionales from '../src/pages/js/Profesionales'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -17,9 +17,9 @@ export default class App extends Component {
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/Servicios" element={<Servicios />} />
+            <Route path="/Profesionales" element={<Profesionales />} />
           </Routes>
 
-        <Footer />
         </BrowserRouter>
       </div>
     )

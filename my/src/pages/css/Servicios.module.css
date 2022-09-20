@@ -54,12 +54,52 @@
 
 .map {
     width: 100%;
-    height: 100vh;
-    padding: 5vw 0;
+    height: 50vw;
+}
+.map_body {
+    width: 80%;
+    height: 30vw;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 5vw;
 }
 .map_title {    
     font-weight: 700;
     font-size: 3vw;
     color: #004494;
     text-align: center;
+}
+
+.lorem {
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1vw;
+}
+.card_text {
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #004494;
+    list-style: none;
+}
+
+@media screen and (max-width: 576px) {
+    .servis_title {
+        font-size: 20px;
+    }
+    .map_title {
+        font-size: 20px;
+    }
+    .card_text {
+        font-size: 14px;
+    }
+    .lorem {
+        height: auto;
+        padding: 20px 0;
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 10px;
+    }
 }

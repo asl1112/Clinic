@@ -17,7 +17,7 @@ export default class Navbar extends Component {
           <ul className={n.nav_item}>
             <a className={n.nav_list} href='/' >Inicio</a>
             <a className={n.nav_list} href='/Servicios'>Servicios</a>
-            <a className={n.nav_list} href='#!'>Profesionales</a>
+            <a className={n.nav_list} href='/Profesionales'>Profesionales</a>
             <a className={n.nav_list} href='#!'>Historia</a>
             <a className={n.nav_list} href='#!'>Contacto</a>
           </ul>

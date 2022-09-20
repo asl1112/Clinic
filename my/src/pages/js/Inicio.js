@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import t from '../css/Tener.module.css'
 import tenerImg from '../img/tenerImg.png'
 import ampliaImg from '../img/ampliaImg.png'
+import Footer from './Footer'
 
 export default class Tener extends Component {
   render() {
@@ -53,7 +54,7 @@ export default class Tener extends Component {
             </div>
         </section>
 
-        
+        <Footer />
       </div>
     )
   }
