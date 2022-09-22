@@ -5,6 +5,7 @@ import card_img from '../img/card.png'
 import card_img2 from '../img/card1.png'
 import card_img3 from '../img/card2.png'
 import liamenosImg from '../img/img.png'
+import logo from '../img/logo.png'
 
 export default class Profesionales extends Component {
   render() {
@@ -26,7 +27,7 @@ export default class Profesionales extends Component {
           <div className={p.card_body}>
 
             <div className={p.card_list}>
-              <img src={card_img3} alt='' />
+              <img src={card_img3} alt=''  />
               <div className={p.list_texts}>
                 <h5 className={p.list_title}>Dr. Luis Fernández </h5>
                 <p className={p.list_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum. Integer</p></div>
@@ -73,8 +74,24 @@ export default class Profesionales extends Component {
         </section>
 
       <section className={p.liamenos}>
-        <img src={liamenosImg} alt='' />
+        <div className={p.liamenos_left}>
+          <img src={liamenosImg} className={p.liamenos_img} alt='img' />
+        </div>
+        <div className={p.liamenos_right}>
+          <h3 className={p.liamenos_title}>¡Llámenos!</h3>
+          <p className={p.liamenos_info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci elit. Nunc ut diam a arcu sodales viverra sit amet eget elit. Vestibulum semper ac turpis nec dictum. Integer </p>
+          <button className={p.liamenos_btn}>Ver en el mapa</button>
+        </div>
+
       </section>
+
+      <div className={p.bottom}>
+              <div className={p.logo}>
+                <img src={logo} alt="" className={p.logo_img} />
+              </div>
+            </div>
+
+
 
       </div>
     )

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import f from  '../css/Footer.module.css'
-import footerImg from '../img/footer.png' 
 import logo from '../img/logo.png'
 
 export default class Footer extends Component {
@@ -27,9 +26,6 @@ export default class Footer extends Component {
                 <img src={logo} alt="" className={f.logo_img} />
               </div>
             </div>
-
-
-            <img src={footerImg} alt="" className={f.footer_img} />
         </footer>
 
       </div>

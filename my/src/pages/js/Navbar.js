@@ -4,7 +4,7 @@ import { MdMenu } from 'react-icons/md'
 
 export default class Navbar extends Component {
     openMenu=()=> {
-      document.querySelector('#burger_menu').classList.toggle('db')
+      document.querySelector('#burger_menu').style = 'display: flex'
     }
   render() {
     return (
@@ -21,6 +21,7 @@ export default class Navbar extends Component {
             <a className={n.nav_list} href='#!'>Historia</a>
             <a className={n.nav_list} href='#!'>Contacto</a>
           </ul>
+
           <MdMenu className={n.burger} onClick={this.openMenu} />
           <div className={n.burger_menu} id='burger_menu'>
           <ul className={n.menu_item}>
