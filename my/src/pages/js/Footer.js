@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import f from  '../css/Footer.module.css'
 import logo from '../img/logo.png'
+import footer_img from '../img/footer.png'
 
 export default class Footer extends Component {
   render() {
@@ -19,6 +20,7 @@ export default class Footer extends Component {
                     </div>
                     <input type="text" className={f.message_inp} />
               </form>
+              <img src={footer_img} alt='' className={f.footer_img} />
             </div>
       
             <div className={f.bottom}>

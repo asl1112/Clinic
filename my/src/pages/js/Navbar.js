@@ -18,18 +18,18 @@ export default class Navbar extends Component {
             <a className={n.nav_list} href='/' >Inicio</a>
             <a className={n.nav_list} href='/Servicios'>Servicios</a>
             <a className={n.nav_list} href='/Profesionales'>Profesionales</a>
-            <a className={n.nav_list} href='#!'>Historia</a>
+            <a className={n.nav_list} href='/Historia'>Historia</a>
             <a className={n.nav_list} href='#!'>Contacto</a>
           </ul>
 
           <MdMenu className={n.burger} onClick={this.openMenu} />
           <div className={n.burger_menu} id='burger_menu'>
           <ul className={n.menu_item}>
-            <li className={n.menu_list}>Inicio</li>
-            <li className={n.menu_list}>Servicios</li>
-            <li className={n.menu_list}>Profesionales</li>
-            <li className={n.menu_list}>Historia</li>
-            <li className={n.menu_list}>Contacto</li>
+            <li className={n.menu_list} href='/'>Inicio</li>
+            <li className={n.menu_list} href='/Servicios'>Servicios</li>
+            <li className={n.menu_list} href='/Profesionales'>Profesionales</li>
+            <li className={n.menu_list} href='/Historia'>Historia</li>
+            <li className={n.menu_list} href='#!'>Contacto</li>
           </ul>
           </div>
         </nav>
