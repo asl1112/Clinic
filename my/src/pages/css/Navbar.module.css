@@ -63,6 +63,9 @@ a {
     justify-content: center;
     display: none;
 }
+.db {
+    display: flex;
+}
 
 .menu_item {
     width: 100%;
